@@ -18,4 +18,14 @@
 
 
 # SOAL NO 2. #
-- Pada Soal No.2 
+- masuk ke dalam direktori `Soal_2` :
+  ```py
+  cd Soal_2
+  ```
+- jalankan `npm install` ( jika node_module tidak di download ) namun saya juga telah memberikan node_module pada direktori `Soal_2`
+- untuk menjalankan program menggunakan `node index.js` dan anda dapat menguji api yang telah saya buat
+
+
+
+# SOAL NO.3 #
+
