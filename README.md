@@ -1,4 +1,4 @@
-# SOAL NO 1. #
+# SOAL NO 1 #
 - Pada Soal No.1 untuk menjalankan programnya hanya perlu membuka index.html dengan browser(Mozila firefox,Google Chrome,Microsoft Edge) setelah itu dapat melihat hasil nya
 - validasi email harus menginputkan format yang tepat, contoh hasil :
   
@@ -17,7 +17,7 @@
 ![image](https://github.com/user-attachments/assets/d8abea25-7dae-46b3-8d6d-eed7a97eb2f8)
 
 
-# SOAL NO 2. #
+# SOAL NO 2 #
 - masuk ke dalam direktori `Soal_2` :
   ```py
   cd Soal_2
@@ -27,7 +27,7 @@
 
 
 
-# SOAL NO.3 #
+# SOAL NO 3 #
 - Pada Soal No.3 untuk menjalankan programnya hanya perlu membuka index.html dengan browser(Mozila firefox,Google Chrome,Microsoft Edge) setelah itu dapat melihat hasil nya
 - Cara Penggunaan
   - User memasukkan angka yang ada pada inputan :
@@ -42,5 +42,5 @@
 
   ![image](https://github.com/user-attachments/assets/487e52ce-686c-4a00-bb83-0d9bb3db2e5d)
 
-# SOAL NO. 4 #
+# SOAL NO 4 #
 - pada 
