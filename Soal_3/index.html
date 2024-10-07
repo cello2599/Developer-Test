@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Angka</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Masukkan Angka</h2>
+        <form id="inputForm" onsubmit="return false;">
+            <label for="numberInput">Angka:</label>
+            <input type="number" id="numberInput" name="numberInput" placeholder="Masukkan angka">
+            <button type="button" onclick="tambahAngka()">Tambah</button>
+        </form>
+
+        <div id="hasilAngka">
+            <h3>Angka yang dimasukkan:</h3>
+            <ul id="listAngka"></ul>
+        </div>
+
+        <div id="sortingSection" style="display: none;">
+            <button type="button" onclick="urutkanAngka()">Urutkan</button>
+            <div id="hasilSorting" style="margin-top: 20px;"></div>
+            <div id="angkaHilang" style="margin-top: 10px;"></div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
