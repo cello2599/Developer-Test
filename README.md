@@ -28,4 +28,18 @@
 
 
 # SOAL NO.3 #
+- Pada Soal No.3 untuk menjalankan programnya hanya perlu membuka index.html dengan browser(Mozila firefox,Google Chrome,Microsoft Edge) setelah itu dapat melihat hasil nya
+- Cara Penggunaan
+  - User memasukkan angka yang ada pada inputan :
+  
+  ![Screenshot 2024-10-07 132335](https://github.com/user-attachments/assets/4baf3b27-a085-4236-8cef-7904d0cd8446)
+
+  - Masukkan Semua angka yang diinginkan, contoh:
+  
+  ![image](https://github.com/user-attachments/assets/bd309dac-c3d5-4cb7-8154-08d216a56c95)
+
+  - Lalu tekan tombol `urutkan` untuk melihat hasil `angka yang telah diurutkan` dan `angka yang hilang pada deret angka` :
+
+  ![image](https://github.com/user-attachments/assets/487e52ce-686c-4a00-bb83-0d9bb3db2e5d)
+
 
