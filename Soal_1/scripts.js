@@ -88,6 +88,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Event listener saat input email berubah
     emailInput.addEventListener('input', function() {
+        passwordInput.value = ''; // Reset value input password
         showLoadingEmail(true); // Tampilkan loading saat mengetik
 
         // Simulasi delay untuk menunggu pengecekan email (1 detik)
