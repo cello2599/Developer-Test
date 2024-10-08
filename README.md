@@ -49,5 +49,5 @@
 - setelah backend dapat dijalankan, buka `index.html` dengan browser(Mozila firefox,Google Chrome,Microsoft Edge) untuk melihat hasil program saya.
 - contoh hasil :
 
-  ![image](https://github.com/user-attachments/assets/27041917-8903-40d7-a3ad-fffff810efc7)
+![image](https://github.com/user-attachments/assets/bb0b38df-d3ef-4771-9ba7-c01a5c92c4f5)
 
