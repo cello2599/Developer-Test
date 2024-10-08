@@ -43,4 +43,11 @@
   ![image](https://github.com/user-attachments/assets/487e52ce-686c-4a00-bb83-0d9bb3db2e5d)
 
 # SOAL NO 4 #
-- pada 
+- pada soal no.4 untuk menjalankan program nya. jalankan backend dengan masuk pada folder `backend_api`
+- jika telah masuk pada direktori `backend_api` install library yang diperlukan yang terdapat pada `requirements.txt` atau saya juga telah memberikan library yang diperlukan pada folder tersebut
+- jalankan backend dengan perintah `python3 main.py`
+- setelah backend dapat dijalankan, buka `index.html` dengan browser(Mozila firefox,Google Chrome,Microsoft Edge) untuk melihat hasil program saya.
+- contoh hasil :
+
+  ![image](https://github.com/user-attachments/assets/27041917-8903-40d7-a3ad-fffff810efc7)
+
