@@ -29,6 +29,7 @@ def find_expression(numbers,target):
     for i in range(n - 1):
         # Pastikan tidak ada close paren sebelum open paren
         s.add(Implies(close_paren[i], open_paren[i]))
+        s.add(Implies(open_paren[i], Or([close_paren[j] for j in range(i, n - 1)])))
 
     # Dapatkan semua permutasi dari deret angka
     all_permutations = generate_permutations(numbers)
@@ -49,9 +50,8 @@ def find_expression(numbers,target):
             m = s.model()
             # Rekonstruksi ekspresi dari model yang dihasilkan oleh Z3
             expr_str = str(permuted_numbers[0])
-
             for i in range(n - 1):
-                if m[open_paren[i]]:  # Tambahkan '(' jika terbuka
+                if m[open_paren[i]] == True:  # Tambahkan '(' jika terbuka
                     expr_str += f'({expr_str}'
 
                 if m[ops[i]].as_long() == 0:
@@ -61,7 +61,7 @@ def find_expression(numbers,target):
                 elif m[ops[i]].as_long() == 2:
                     expr_str += f' * {permuted_numbers[i + 1]}'
 
-                if m[close_paren[i]]:  # Tambahkan ')' jika ditutup
+                if m[close_paren[i]] == True:  # Tambahkan ')' jika ditutup
                     expr_str += ' ) '
 
             return expr_str
